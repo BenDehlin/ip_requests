@@ -1,0 +1,12 @@
+{
+  "name": "ip_requests",
+  "version": "1.0.0",
+  "description": "Code challenge to write a program that receives hundreds of thousands or millions of 'ip requests' and counts them, sorts them, and returns the highest count",
+  "main": "ip_requests_v1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
