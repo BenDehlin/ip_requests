@@ -14,8 +14,16 @@ const top100 = () => {
   .slice(0, 100)
 }
 
+const clear = () => {
+  for(let key in ip_addresses){
+    delete ip_addresses[key]
+  }
+}
+
+
 module.exports = {
   ip_addresses,
   request_handled,
-  top100
+  top100,
+  clear
 }

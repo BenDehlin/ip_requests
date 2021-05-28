@@ -67,10 +67,17 @@ const top100 = () => {
   return sort(Object.entries(ip_addresses)).slice(0, 100).map(([val]) => val)
 }
 
+const clear = () => {
+  for(let key in ip_addresses){
+    delete ip_addresses[key]
+  }
+}
+
 // Finally we export our 2 functions and the ip_addresses 
 // dictionary so that we can use them over in our simulation.
 module.exports = {
   top100,
   request_handled,
-  ip_addresses
+  ip_addresses,
+  clear
 }

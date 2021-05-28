@@ -1,5 +1,5 @@
 const dummy_data = require('./dummy_data') 
-const {ip_addresses, top100, request_handled} = require('./ip_requests_v1') 
+const {ip_addresses, top100, request_handled, clear} = require('./ip_requests_v2') 
 
 // here we bring in our dummy data which is an object with 2
 // values, an ip_address and a count. Then we use a nested for loop
@@ -21,3 +21,6 @@ const output = top100()
 console.log(ip_addresses) // to check that our addresses save right in the dict
 console.log(output) // to check that we got back the top 100 results
 console.log(output.length)// make sure we return the right number of results
+
+clear()
+console.log(ip_addresses) // tests that clear works
