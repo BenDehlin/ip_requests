@@ -12,7 +12,7 @@
 
 ### Questions and answers
 ##
-1. What what I do differently with more time?\
+1. What would I do differently with more time?\
 The first thing I would want to do differently with more time would be make sure that I had a proper test suite set up before hand to ensure that I was timing my functions and then while iterating through my different versions I would check the time they were taking. This would also allow me to trim the fat as I get closer to my solution.
 ##
 2. What is the runtime complexity of each function?\
