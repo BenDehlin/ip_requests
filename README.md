@@ -4,6 +4,12 @@
 3. Dummy data in `dummy_data.json` that will allow us to test our functions against thousands of ip addresses tens of thousands of times each
 4. Simulation set up in `./simulation.js` which will import all of our functions and execute
 
+### Time spent breakdown
+1. about 10 minutes implementing ip_requests_v1
+2. about 35 minutes implementing ip_requests_v2
+3. about 20 minutes setting up dummy data and the simulation
+4. The rest adding comments and the README
+
 ### Questions and answers
 ##
 1. What what I do differently with more time?\
