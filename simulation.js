@@ -1,5 +1,5 @@
 const dummy_data = require('./dummy_data') 
-const {ip_addresses, top100, request_handled, clear} = require('./ip_requests_v3') 
+const {ip_addresses, top100, request_handled, clear} = require('./ip_requests_v4') 
 
 // here we bring in our dummy data which is an object with 2
 // values, an ip_address and a count. Then we use a nested for loop
